@@ -1,0 +1,78 @@
+.myCoursesItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(226, 226, 226);
+  margin: 10px;
+  width: 250px;
+}
+
+.myCoursesItem__image {
+  width: 30%;
+  height: auto;
+  float: left;
+}
+
+.myCoursesItem__info {
+  padding: 10px 5px;
+}
+
+.myCoursesItem__info .myCoursesItem__title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #29303b;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.myCoursesItem__info .myCoursesItem__author {
+  font-size: 14px;
+  margin-top: 2px;
+  color: #686868;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.myCoursesItem__down {
+  padding: 0 15px;
+}
+
+.myCoursesItem__down p {
+  color: #007791;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.myCoursesItem__down p:hover {
+  color: #02596d;
+}
+
+.red_button {
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  height: 28px;
+  margin-bottom: 3px;
+  width: 100%;
+  color: #fff;
+  background-color: #ec5252;
+  border: none;
+}
+
+.green_button {
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  height: 28px;
+  margin-bottom: 3px;
+  width: 100%;
+  color: #fff;
+  background-color: #096010;
+  border: none;
+}
+
+red_button:hover {
+  background-color: #c74b4b;
+}
